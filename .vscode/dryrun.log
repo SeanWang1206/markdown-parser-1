@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/sean/Documents/GitHub/markdown-parser-1'
+make: `MarkdownParseTest.class' is up to date.
+make: Leaving directory `/Users/sean/Documents/GitHub/markdown-parser-1'
+ 
