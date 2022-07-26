@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Thu Jul 14 08:59:25 2022
+
+# Make data base, printed on Thu Jul 14 10:23:41 2022
 
 # Variables
 
@@ -18,6 +21,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
+ 
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
 @F = $(notdir $@)
@@ -136,9 +140,9 @@ VSCODE_PID = 89764
 
 # Directories
 
-# . (device 16777233, inode 12058783): 25 files, no impossibilities.
+# . (device 16777233, inode 12058783): 26 files, no impossibilities.
 
-# 25 files, no impossibilities in 1 directories.
+# 26 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -180,7 +184,7 @@ MarkdownParseTest.class: MarkdownParseTest.java MarkdownParse.class
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-14 08:30:18
+#  Last modified 2022-07-14 09:13:10
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -225,8 +229,6 @@ MarkdownParse.java:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Jul 14 08:59:25 2022
+# Finished Make data base on Thu Jul 14 10:23:41 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-
